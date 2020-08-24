@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+    max-width: 100%;
+}
+
+h1{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.Calculator{
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px;
+    max-width: 400px;
+    margin-left: 10px;
+    border: solid 5px rgb(19, 147, 170);
+    border-style: double;
+    
+}
+
+
+button{
+    display: grid;
+    padding: 18px
+    background-color: rgb(37, 141 185);
+    color: white;
+    border-radius: 10px
+}
+
+.answer{
+    grid-column: span 2;
+    font-weight: bold;
+    font-size: 115%;
+}
